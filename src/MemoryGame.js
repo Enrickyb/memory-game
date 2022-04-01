@@ -33,6 +33,7 @@ export default function MemoryGame() {
 
   return (
     <div>
+        <h1 id='h1memory'>Memory Game</h1>
         <GameBoard handleFlip={handleFlip} cards={cards}></GameBoard>
         <GameOver show={gameOver} handleRestart={restart}></GameOver>
     </div>
